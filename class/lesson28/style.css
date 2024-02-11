@@ -1,0 +1,45 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: orange;
+    border: 1px solid orangered;
+    border-radius: 20px;
+    box-shadow: 5px 10px 5px red;
+    transition-property: transform;
+    transition-duration: 2s;
+}
+
+.box:hover {
+    transform: skew(50deg, 100deg);
+} */
+
+.wrap {
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    position: relative;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 250px;
+    background-color: aquamarine;
+    transform: translate(-50%, -50%);
+    transition-property: transform, background-color;
+}
+
+.box:hover {
+    transform: translate(-50%, -50%) scale(1.5) rotate(360deg);
+    transition-duration: 3s;
+    background-color: blueviolet;
+}

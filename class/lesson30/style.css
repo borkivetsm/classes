@@ -1,0 +1,120 @@
+/* .box {
+    width: 250px;
+    height: 250px;
+    border: 1px solid gray;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+}
+
+.box:hover {
+    animation-name: changeColor;
+    animation-duration: 3s;
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: rgb(59, 170, 170);
+    }
+    50% {
+        background-color: rgb(79, 79, 176);
+    }
+    100% {
+        background-color: rgb(111, 55, 163);
+    }
+} */
+
+/* .content {
+    padding: 50px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 50%;
+    position: relative;
+    left: 0;
+    animation-name: changeColor;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.content:hover .box {
+    animation-play-state: paused;
+}
+
+@keyframes changeColor {
+    0% {
+        left: 0;
+        background-color: orange;
+    }
+    50% {
+        border-radius: 0;
+        background-color: yellow;
+    }
+    100% {
+        left: 500px;
+        background-color: orange;
+    }
+} */
+
+/* img {
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} */
+
+.wrap {
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    background-color: rgb(109, 109, 182);
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+        background-color: rgb(109, 109, 182);
+        border-color: black;
+    }
+    30% {
+        background-color: blue;
+        border-color: violet;
+    }
+    70%{
+        background-color: violet;
+        border-color: blue;
+    }
+    100% {
+        transform: rotate(360deg);
+        background-color: rgb(109, 109, 182);
+        border-color: black;
+    }
+}

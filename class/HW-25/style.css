@@ -1,0 +1,25 @@
+div {
+    height: 200px;
+    width: 200px;
+    margin-left: 100px;
+}
+
+.pink {
+    background-color: rgb(232, 176, 232);
+    margin-top: 70px;
+}
+
+.blue {
+    background-color: rgb(96, 96, 229);
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+    z-index: 999;
+}
+
+.green {
+    background-color: rgb(133, 203, 133);
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+}

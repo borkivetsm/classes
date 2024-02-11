@@ -1,0 +1,29 @@
+.box {
+    width: 100px;
+    height: 100px;
+    animation-name: square;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-color: yellow;
+}
+
+@keyframes square {
+    0% {
+        background-color: yellow;
+    }
+    25% {
+        background-color: red;
+        transform: translateX(100px);
+    }
+    50% {
+        background-color: blue;
+        transform: translate(100px, 100px);
+    }
+    75% {
+        background-color: green;
+        transform: translateY(100px);
+    }
+    100% {
+        background-color: yellow;
+    }
+}

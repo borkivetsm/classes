@@ -1,0 +1,101 @@
+/* .box {
+    border: 10px solid black;
+    width: 500px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    width: 100%;
+    
+} */
+
+/* .box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(224, 142, 142);
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: transform 500ms ease;
+}
+
+.box:hover .overlay {
+    background-color: rgb(137, 218, 218);
+    transform: translateY(0%);
+} */
+
+/* .menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: 250px;
+}
+
+.menu-item {
+    margin-right: 15px;
+    outline: 2px solid rgb(119, 84, 52);
+    position: relative;
+}
+
+.menu-link {
+    display: block;
+    padding: 10p 20px;
+    text-decoration: none;
+    background-color: rgb(189, 140, 102);
+    color: black;
+}
+
+.sub-menu {
+    position: absolute;
+    width: 88%;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    background-color: rgb(219, 159, 124);
+    top: 100%;
+    left: 0;
+    display: none;
+}
+
+.menu-item:hover .sub-menu {
+    display: block;
+}
+
+.menu-link:hover {
+    background-color: rgb(255, 255, 184);
+} */
+
+/* html {
+    scroll-behavior: smooth;
+}
+
+#one {
+    height: 1200px;
+    background-color: rgb(179, 255, 255);
+}
+
+#two {
+    height: 1200px;
+    background-color: rgb(255, 171, 171);
+} */
+
+button {
+    position: fixed;
+    right: 50px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: gray;
+}
